@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* This is a google font specification */
+
+
+/*body {font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0;  }
+/* This is a google font specification for the body */
+
+/*
+h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight 700; }
+h2 { margin: 0 0 .5em 0; font-size: 1.6em; font-weight 700; line-height:1.1em; }
+h3 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight 700; }
+h4 { margin: 0 0 1.5em 0; font-size: 1.3em; font-weight 700;}*/
+
+
+header {height: 89px; background: #f8f8ff}
+
+header a.logo{
+    z-index: 1; /* This makes the logo the come to the front and stay that way */
+    position: absolute; display: block; width: 180px; height: 75px;
+    background: url(images/logo_Nat.svg) no-repeat 0 0; background-size: contain;
+    top: 10px; left: 0px;
+}
+
+header a.logo span {display: none; }
+
+footer {font-size: .8em; margin: 40px; margin-left:20px; color: #999; }
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
